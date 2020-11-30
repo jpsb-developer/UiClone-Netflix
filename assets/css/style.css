@@ -17,6 +17,9 @@ body {
   color: #fff;
   font-size: 16px;
 }
+.container{
+  margin: 0 1.5rem;
+}
 header .container {
   display: flex;
   justify-content: space-between;
@@ -45,6 +48,9 @@ header .container nav a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.filme-principal .container{
+  width: 70%;
 }
 .filme-principal .description{
     margin-bottom:40px;
