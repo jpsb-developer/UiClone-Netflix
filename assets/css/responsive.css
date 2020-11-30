@@ -1,0 +1,14 @@
+@media only screen and (max-width:700px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .button{
+        margin-top: .4rem;
+    }
+}
+@media only screen and (min-width:1000px){
+    .description{
+        width: 50%;
+    }
+}

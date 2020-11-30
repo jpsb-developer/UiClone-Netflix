@@ -53,14 +53,14 @@ header .container nav a:hover {
   width: 70%;
 }
 .filme-principal .description{
-    margin-bottom:40px;
+    margin-bottom:1rem;
     margin-top: .4rem;
 
 }
 .titulo{
     font-size: 3rem;
     font-weight: 500;
-    margin-top: 15%;
+    margin-top: .5rem;
 }
 .filme-principal .buttons .button{
     padding: 1rem;
@@ -88,4 +88,7 @@ header .container nav a:hover {
   width: 100%;
   display: block;
   cursor: pointer;
+}
+.carrosel-filmes{
+  margin-top: .5rem;
 }
