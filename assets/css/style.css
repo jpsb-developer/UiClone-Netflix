@@ -15,6 +15,7 @@ body {
   font-family: "Poppins", sans-serif;
   background: var(--preto);
   color: #fff;
+  font-size: 16px;
 }
 header .container {
   display: flex;
@@ -46,16 +47,33 @@ header .container nav a:hover {
     justify-content: center;
 }
 .filme-principal .description{
-    margin-bottom:40px ;
+    margin-bottom:40px;
+    margin-top: .4rem;
+
 }
 .titulo{
-    font-size: 40px;
+    font-size: 3rem;
+    font-weight: 500;
+    margin-top: 15%;
 }
-.filme-principal .buttons button{
-    padding: 8px;
+.filme-principal .buttons .button{
+    padding: 1rem;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 400;
+    border:none;
     cursor: pointer;
+    background-color: rgb(0,0,0,0.5);
     outline: none;
+    color: #fff;
+    margin-right: 1rem;
+    font-size: .7rem;
+    transition: .5s ease all;
+}
+.filme-principal .buttons button:hover{
+  background-color: #fff;
+  color: black;
+}
+.fas{
+  margin-right: .2rem;
 }
 
